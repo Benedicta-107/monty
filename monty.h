@@ -1,5 +1,6 @@
 #ifndef MONTY_H
 #define MONTY_H
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -78,4 +79,5 @@ void mod_me(stack_t **stack, unsigned int ln);
 void print_me(stack_t **stack, unsigned int ln);
 void printx_me(stack_t **stack, unsigned int ln);
 void rotl(stack_t **stack, unsigned int ln);
-#endif
+
+#endif /* _MONTY_H */
