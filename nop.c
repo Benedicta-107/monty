@@ -1,12 +1,12 @@
 #include "monty.h"
 /**
-  * nop_me - Angel
-  * @stack: pointer to first elm of the stack
-  * @ln: instruction line in case of error
-  */
-
-void nop_me(stack_t **stack, unsigned int ln)
+  *f_nop- nothing
+  *@head: stack head
+  *@counter: line_number
+  *Return: no return
+ */
+void f_nop(stack_t **head, unsigned int counter)
 {
-	(void) ln;
-	(void) stack;
+	(void) counter;
+	(void) head;
 }
